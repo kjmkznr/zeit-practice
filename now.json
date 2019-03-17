@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "routes": [
+    {"src": "/handler2", "dest": "/index2.go"}
+  ],
   "builds": [{ "src": "*.go", "use": "@now/go" }]
 }
 
